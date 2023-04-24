@@ -8,5 +8,3 @@ for dirpath, dirnames, filenames in os.walk(PROJECT_ROOT):
     for filename in filenames:
         sys.path.append(os.path.join(dirpath, filename))
 
-
-print(sys.path)
